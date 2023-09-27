@@ -1,1 +1,1 @@
-# AI-Text-Summarizer-and-Translation-App
+# AI Text Summarizer and Translation App
