@@ -1,5 +1,6 @@
 const axios = require('axios');
 //const tk = process.env['ACCESS_TOKEN']
+
 // Function to call Hugging Face API. Returns summarized text
 
 async function summarizeText(text) {
@@ -34,6 +35,7 @@ async function summarizeText(text) {
   }
 }
 
+// Summarize text and pass it to translate function for translation
 async function summarizeTranslate(text) {
 
   let data = JSON.stringify({
@@ -68,6 +70,7 @@ async function summarizeTranslate(text) {
   }
 }
 
+// Translate summarized text
 async function translate(summary_text) {
 
   let t_data = JSON.stringify({
@@ -96,7 +99,7 @@ async function translate(summary_text) {
   }
 }
 
-// Make function accessible
+// Make functions accessible
 module.exports = {
   summarizeText,
   summarizeTranslate,
