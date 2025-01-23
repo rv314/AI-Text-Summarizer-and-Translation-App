@@ -1,8 +1,8 @@
 # AI Text Summarizer and Translation App
 
-Text summarizer and translation app
+API to summarize text and translate it
 
 ## Tech stack 
 - Node.js
 - Express
-- Hugging Face API
+- Hugging Face API (CNN)
